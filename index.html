@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Magang Ceria</title>
+  </head>
+  <body>
+    <header class="app-bar">
+      <div class="container">
+        <div class="brand">
+          <img
+            src="https://a219-mfwde-hotelify.netlify.app/images/ic_hotel.svg"
+            alt="logo hotel"
+          />
+          <h1>Smallio</h1>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="form-input">
+        <h2 class="title">Mau Magang? Ayo Isi Data Dulu ya!</h2>
+        <form>
+          <div class="segment-1">
+            <label for="fullName">Nama Lengkap</label>
+            <input id="fullName" placeholder="ex. John Doe" required="" />
+            <label for="address">Alamat</label>
+            <textarea
+              id="address"
+              placeholder="ex. Sudirman, DKI Jakarta"
+              required=""
+            ></textarea>
+          </div>
+          <div class="segment-2">
+            <div class="position-type">
+              <label for="positionType">Posisi</label>
+              <select id="positionType">
+                <option value="mobile">Mobile</option>
+                <option value="be">Backend</option>
+                <option value="fe">Frontend</option>
+              </select>
+            </div>
+            <div class="check-in">
+              <label for="checkIn">Tanggal Masuk</label>
+              <input type="date" id="checkIn" required="" />
+            </div>
+            <div class="check-out">
+              <label for="checkOut">Tanggal Keluar</label>
+              <input type="date" id="checkOut" required="" />
+            </div>
+          </div>
+          <div class="segment-3">
+            <input type="checkbox" id="agreement" />
+            <label for="agreement"
+              >Dengan ini saya setuju dengan syarat dan ketentuan berlaku</label
+            >
+          </div>
+          <button type="submit" disabled class="btn-submit">Kirim Lamaran</button>
+        </form>
+      </div>
+      <div class="click-hider"></div>
+      <div class="instruction">
+        <h2>Instruksi</h2>
+        <p>isi semua input sesuai data dibawah ini dan dapatkan kode rahasia</p>
+        <strong>JANGAN JURANG !!!</strong>
+        <p>isilah dengan nama Monalisa, Monalisa tinggal di Via Maggio dan ingin magang sebagai frontend developer selama 4 bulan yang dimulai dari tanggal 5 September 2022 sampai 13 Januari 2023</p>
+      </div>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
