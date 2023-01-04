@@ -25,7 +25,7 @@ button.addEventListener('click', (e) => {
 
     if (fullNameValue === 'Monalisa' && positionTypeValue === 'fe' && checkInValue === 
     '2022-09-05' && checkOutValue === '2023-01-13' && addressValue === 'Via Maggio') {
-        alert('Kode Rahasia : Lavender')
+        alert('Kode Rahasia : Lato-Lato')
     } else {
         alert('salah')
     }
