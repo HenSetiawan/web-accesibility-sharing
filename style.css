@@ -129,9 +129,11 @@ button {
 
 .click-hider {
     position: absolute;
+    top: 0;
     width: 100vw;
-    height: calc(100vh - 150px);
-    background-color: transparent;
+    height: 90vh;
+    background: rgba(255,255,255,0.2);
+    backdrop-filter: blur(8px);
 }
 .instruction {
     margin-top: 20px;
