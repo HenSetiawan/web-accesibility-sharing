@@ -35,32 +35,7 @@ body {
     font-weight: bold;
     color: cadetblue;
 }
-.app-bar .container nav {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
 
-nav ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
-
-.app-bar .container nav ul li {
-    display: inline-block;
-}
-.app-bar .container nav ul li a {
-    display: block;
-    padding: 0.3em 1em;
-    text-decoration: none;
-    color: black;
-    font-size: 22px;
-}
 main {
     margin-top: 50px;
     display: flex;
@@ -155,10 +130,8 @@ button {
 .click-hider {
     position: absolute;
     width: 100vw;
-    margin-bottom: 300px;
-    height: 90vh;
-    background: rgba(255,255,255,0.2);
-    backdrop-filter: blur(8px);
+    height: calc(100vh - 150px);
+    background-color: transparent;
 }
 .instruction {
     margin-top: 20px;
