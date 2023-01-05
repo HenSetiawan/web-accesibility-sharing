@@ -5,6 +5,7 @@ const address = document.querySelector('#address');
 const checkIn = document.querySelector('#checkIn');
 const checkOut = document.querySelector('#checkOut');
 const agreement = document.querySelector('#agreement');
+const code = document.querySelector('#kode');
 
 
 agreement.addEventListener('click', () => {
@@ -22,9 +23,10 @@ button.addEventListener('click', (e) => {
     const checkInValue = checkIn.value;
     const checkOutValue = checkOut.value;
     const addressValue = address.value;
+    const codeValue = code.value;
 
     if (fullNameValue === 'Monalisa' && positionTypeValue === 'fe' && checkInValue === 
-    '2022-09-05' && checkOutValue === '2023-01-13' && addressValue === 'Via Maggio') {
+    '2022-09-05' && checkOutValue === '2023-01-13' && addressValue === 'Via Maggio' && codeValue === "Lavender") {
         alert('Kode Rahasia : Lato-Lato')
     } else {
         alert('salah')
